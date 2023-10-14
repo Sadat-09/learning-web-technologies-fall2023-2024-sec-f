@@ -86,10 +86,10 @@ if($f==0){
  }
 
 
- if(isset($_POST['gender'])){
+ if(!isset($_POST['gender'])){
     echo "please select gender";
  }
- if(isset($_POST['dob'])){
+ if(!isset($_POST['dob'])){
     echo "please select Date of Birth";
  }
 
